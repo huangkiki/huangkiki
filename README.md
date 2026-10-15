@@ -55,14 +55,20 @@ My background is in **numerical modeling of physical systems**. I hold a master�
 
 Developing simulation workflows spanning **robot and object modeling, task construction, controller integration, and behavior evaluation**, alongside reproducible experiments on **contact, friction, deformable materials, and numerical solvers**. I explore grasping, in-hand manipulation, and cutting, with attention to numerical stability and tradeoffs between accuracy and efficiency.
 
-Public examples include [Apple Stem Grasp](https://github.com/huangkiki/Dexlab/tree/main/demos/apple-stem-grasp) with OpenArm and Wuji hands, [Tofu Halving](https://github.com/huangkiki/Dexlab/tree/main/demos/tofu-cut), and [Banana Slicing](https://github.com/huangkiki/Dexlab/tree/main/demos/banana-cut).
+**Cut, then push with the blade:** two tofu cuts form three pieces; three banana cuts form four. The last cut transitions directly into a visible knife-face push. Surface and particle views below replay the same saved simulation states, with **contact force |F|, Fx, Fz (N) and every piece’s displacement Δx (mm)** on each frame.
 
-<p>
-<a href="https://github.com/huangkiki/Dexlab/tree/main/demos/apple-stem-grasp"><img align="top" src="https://raw.githubusercontent.com/huangkiki/Dexlab/4d988229fc7bc7bd6331947c8cd64b23da048cd8/demos/apple-stem-grasp/media/superdex-sdf.gif" width="260" alt="Apple Stem Grasp: recorded OpenArm and Wuji hand simulation in SuperDex"></a>
-<a href="https://github.com/huangkiki/Dexlab/tree/main/demos/tofu-cut"><img align="top" src="https://raw.githubusercontent.com/huangkiki/Dexlab/4d988229fc7bc7bd6331947c8cd64b23da048cd8/docs/evidence/cutting/tofu/surface.gif" width="260" alt="Tofu Halving: recorded synthetic material cutting simulation"></a>
-<a href="https://github.com/huangkiki/Dexlab/tree/main/demos/banana-cut"><img align="top" src="https://raw.githubusercontent.com/huangkiki/Dexlab/4d988229fc7bc7bd6331947c8cd64b23da048cd8/docs/evidence/cutting/banana/surface.gif" width="260" alt="Banana Slicing: recorded synthetic material simulation with three sequential cuts"></a>
-</p>
-<sub>Recorded simulation replays: apple stem grasp · tofu halving · banana slicing.</sub>
+<table>
+<tr><th>Tofu · two cuts → three pieces · surface</th><th>Tofu · two cuts → three pieces · particles</th></tr>
+<tr><td><a href="https://github.com/huangkiki/Dexlab/tree/35c447d639c7fc2e49d66570c851d6d364181edc/demos/cut-push"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/35c447d639c7fc2e49d66570c851d6d364181edc/docs/evidence/cutting/tofu-cut-push/surface.gif" width="400" alt="Tofu · two cuts → three pieces: surface replay with measured contact forces and per-piece displacement"></a></td><td><a href="https://github.com/huangkiki/Dexlab/tree/35c447d639c7fc2e49d66570c851d6d364181edc/demos/cut-push"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/35c447d639c7fc2e49d66570c851d6d364181edc/docs/evidence/cutting/tofu-cut-push/particles.gif" width="400" alt="Tofu · two cuts → three pieces: particles replay with measured contact forces and per-piece displacement"></a></td></tr>
+<tr><th>Banana · three cuts → four pieces · surface</th><th>Banana · three cuts → four pieces · particles</th></tr>
+<tr><td><a href="https://github.com/huangkiki/Dexlab/tree/35c447d639c7fc2e49d66570c851d6d364181edc/demos/cut-push"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/35c447d639c7fc2e49d66570c851d6d364181edc/docs/evidence/cutting/banana-cut-push/surface.gif" width="400" alt="Banana · three cuts → four pieces: surface replay with measured contact forces and per-piece displacement"></a></td><td><a href="https://github.com/huangkiki/Dexlab/tree/35c447d639c7fc2e49d66570c851d6d364181edc/demos/cut-push"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/35c447d639c7fc2e49d66570c851d6d364181edc/docs/evidence/cutting/banana-cut-push/particles.gif" width="400" alt="Banana · three cuts → four pieces: particles replay with measured contact forces and per-piece displacement"></a></td></tr>
+</table>
+
+<sub>Recorded synthetic-material simulations, without real-food calibration. Tofu uses Newtonian viscosity η=5 Pa·s; banana retains η=0. No direct material velocity kick or playback smoothing. <a href="https://github.com/huangkiki/Dexlab/tree/35c447d639c7fc2e49d66570c851d6d364181edc/demos/cut-push">Protocol, controls and numerical results</a>.</sub>
+
+[Apple Stem Grasp](https://github.com/huangkiki/Dexlab/tree/main/demos/apple-stem-grasp) uses OpenArm and Wuji hands:
+
+<a href="https://github.com/huangkiki/Dexlab/tree/main/demos/apple-stem-grasp"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/4d988229fc7bc7bd6331947c8cd64b23da048cd8/demos/apple-stem-grasp/media/superdex-sdf.gif" width="260" alt="Apple Stem Grasp: recorded OpenArm and Wuji hand simulation in SuperDex"></a>
 
 ### 3. JEPA & World Models
 
