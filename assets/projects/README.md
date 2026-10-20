@@ -6,8 +6,8 @@ The profile links to actual project recordings and replays at fixed commits. Upd
 | --- | --- |
 | MATRiX · Town10 navigation | [Original recording](https://github.com/zsibot/matrix/blob/55ad3fec77deaf1b589d27fa6cc4bfca4553754e/demo_gif/Town10.gif) |
 | DexLab · studio/rss | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/rss.gif) |
-| DexLab · cutting/tofu-cut-push/surface | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/cutting/tofu-cut-push/surface.gif) |
-| DexLab · cutting/banana-cut-push/surface | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/cutting/banana-cut-push/surface.gif) |
+| DexLab · cutting/tofu-cut-push/surface-rtx | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/tofu-cut-push/surface-rtx.gif) |
+| DexLab · cutting/banana-cut-push/surface-rtx | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/banana-cut-push/surface-rtx.gif) |
 | DexLab · cutting/tofu-scoring/surface | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/cutting/tofu-scoring/surface.gif) |
 | DexLab · studio/apple | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/apple.gif) |
 | DexLab · cloth-studio/sag | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/cloth-studio/sag.gif) |
@@ -18,7 +18,7 @@ The profile links to actual project recordings and replays at fixed commits. Upd
 | DexLab · studio/normal | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/normal.gif) |
 
 
-The DexLab gallery presents ten experiment groups. The new rigid-scene RTX batch
+The DexLab gallery presents ten experiment groups. The rigid-scene RTX batch
 contains 13 complete recordings and 1,142 frames: two apple-grasp records, both
 Genesis force limits, LIBERO demo 0, six historical incline engines and the
 initial/calibrated normal-contact pair. Their original states are replayed with
@@ -35,7 +35,9 @@ interpreting these clips as an engine ranking.
 
 RSS uses a separately verified matched-camera RTX replay; its profile GIF covers
 10–19.9 seconds. Cutting shows connected-volume reconstruction from recorded
-synthetic-material states, without real-food calibration; the original particle
+synthetic-material states, without real-food calibration. The banana and tofu
+cut-push previews use repaired display surfaces and OVRTX path tracing;
+their 161 and 121 frames retain the original motion and measurements. The original particle
 views and force measurements remain in the
 [cutting report](https://huangkiki.github.io/Dexlab/en/latest/cutting-surface.html).
 Cloth uses recorded-mesh studio views, with failures and coverage gaps preserved
