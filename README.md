@@ -49,9 +49,14 @@ I’m currently exploring **world models**, with a particular interest in how ag
 
 <h3><a href="https://github.com/huangkiki/Dexlab">DexLab</a> <a href="https://github.com/huangkiki/Dexlab/stargazers"><img src="https://img.shields.io/github/stars/huangkiki/Dexlab?style=flat&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a></h3>
 
-At DexLab, I treat contact-rich manipulation as a **co-evolution loop between robot models and physics simulators**. Each run records native contact and solver state, attributes a failure to the model, adapter, controller, scene, or physics, then routes the next change to the correct side under versioned evidence.
+At DexLab, I build a physics-centric research platform for contact-rich manipulation around **Simulation–Learning Co-evolution**: let robot models expose simulator gaps, then use the improved simulator to train better models.
 
-DexLab brings together reproducible experiments in **grasping, cutting, wiping, and deformable-material interaction**, using a task-dependent matrix across **MuJoCo, SuperDex, Genesis, Newton Physics, PhysX, and Drake** rather than a single engine ranking.
+DexLab joins reproducible experiments in **grasping, cutting, wiping, and deformable-material interaction** with task protocols, RoboAPI/VLA/world-model systems under test, action execution, and independently recorded evidence. Native-physics experiments span **MuJoCo, SuperDex, Genesis, Newton Physics, PhysX, and Drake**; **Uranus** is documented as a generative-backend candidate rather than an operational runner.
+
+<p align="center">
+  <a href="https://github.com/huangkiki/Dexlab"><img src="assets/projects/dexlab-architecture.jpg" width="100%" alt="DexLab architecture: tasks and protocols, systems under test, action execution, environment backends, and evidence and scoring"></a><br>
+  <sub>DexLab execution and evaluation architecture · task thumbnails indicate categories; recorded task evidence follows below.</sub>
+</p>
 
 <table width="100%">
   <tr>

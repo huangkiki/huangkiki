@@ -5,6 +5,7 @@ The profile links to actual project recordings and replays at fixed commits. Upd
 | Profile visual | Source |
 | --- | --- |
 | MATRiX · Town10 navigation | [Original recording](https://github.com/zsibot/matrix/blob/55ad3fec77deaf1b589d27fa6cc4bfca4553754e/demo_gif/Town10.gif) |
+| DexLab · execution and evaluation architecture | User-provided DexLab architecture artwork; task thumbnails are illustrative |
 | DexLab · Wuji grasp and contact switching | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/64d9051beb12bda0cc47b9fea3d2e7226315ae16/docs/evidence/wuji-contact/comparison.gif) |
 | DexLab · Tofu cutting | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/tofu-cut-push/surface-rtx.gif) |
 | DexLab · Banana cutting | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/banana-cut-push/surface-rtx.gif) |
@@ -46,3 +47,7 @@ views and force measurements remain in the
 [Original image](https://arxiv.org/html/2609.03565v2/method_overview.png).
 It shows the visual encoder, action-conditioned predictor, state-alignment head,
 inverse-dynamics head, and training losses.
+
+`dexlab-architecture.jpg` describes DexLab's execution and evaluation flow. Its
+task images identify supported categories and are not additional experiment
+results; the recordings below remain the evidence shown on the profile.
