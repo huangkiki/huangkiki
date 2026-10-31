@@ -49,11 +49,17 @@ I’m currently exploring **world models**, with a particular interest in how ag
 
 <h3><a href="https://github.com/huangkiki/Dexlab">DexLab</a> <a href="https://github.com/huangkiki/Dexlab/stargazers"><img src="https://img.shields.io/github/stars/huangkiki/Dexlab?style=flat&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a></h3>
 
-I develop **simulation workflows for dexterous manipulation**, covering robot and object modeling, task construction, controller integration, and behavior evaluation. DexLab brings these workflows together with reproducible experiments in **grasping, cutting, wiping, and deformable-material interaction**.
+At DexLab, I treat contact-rich manipulation as a **co-evolution loop between robot models and physics simulators**. Each run records native contact and solver state, attributes a failure to the model, adapter, controller, scene, or physics, then routes the next change to the correct side under versioned evidence.
 
-I use these tasks to examine how **contact, friction, and numerical solvers** affect simulated behavior, compare results across physics engines, and investigate tradeoffs between **numerical stability, accuracy, and computational cost**.
+DexLab brings together reproducible experiments in **grasping, cutting, wiping, and deformable-material interaction**, using a task-dependent matrix across **MuJoCo, SuperDex, Genesis, Newton Physics, PhysX, and Drake** rather than a single engine ranking.
 
 <table width="100%">
+  <tr>
+    <td colspan="2" align="center">
+      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/wuji-contact.html">Wuji grasp and contact switching</a></strong></p>
+      <a href="https://huangkiki.github.io/Dexlab/en/latest/wuji-contact.html"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/64d9051beb12bda0cc47b9fea3d2e7226315ae16/docs/evidence/wuji-contact/comparison.gif" width="100%" alt="Wuji point contact and synthetic torsional contact, synchronized replay" loading="lazy"></a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/cut-push.html">Tofu cutting</a></strong></p>

@@ -5,6 +5,7 @@ The profile links to actual project recordings and replays at fixed commits. Upd
 | Profile visual | Source |
 | --- | --- |
 | MATRiX · Town10 navigation | [Original recording](https://github.com/zsibot/matrix/blob/55ad3fec77deaf1b589d27fa6cc4bfca4553754e/demo_gif/Town10.gif) |
+| DexLab · Wuji grasp and contact switching | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/64d9051beb12bda0cc47b9fea3d2e7226315ae16/docs/evidence/wuji-contact/comparison.gif) |
 | DexLab · Tofu cutting | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/tofu-cut-push/surface-rtx.gif) |
 | DexLab · Banana cutting | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/banana-cut-push/surface-rtx.gif) |
 | DexLab · Stain wiping | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/rss.gif) |
@@ -12,11 +13,11 @@ The profile links to actual project recordings and replays at fixed commits. Upd
 | DexLab · LIBERO replay | [Recorded replay](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/libero.gif) |
 
 
-The profile highlights five experiments: tofu cutting, banana cutting, stain
-wiping, apple grasping and LIBERO replay. The apple and LIBERO previews come
-from a rigid-scene RTX batch of 13 complete recordings and 1,142 frames. Their
-original states are replayed with MuJoCo's USD exporter and OVRTX; no physics
-is integrated during rendering.
+The profile highlights six experiments: Wuji grasp and contact switching, tofu
+cutting, banana cutting, stain wiping, apple grasping, and LIBERO replay. The
+apple and LIBERO previews come from a rigid-scene RTX batch of 13 complete
+recordings and 1,142 frames. Their original states are replayed with MuJoCo's
+USD exporter and OVRTX; no physics is integrated during rendering.
 Every exported object and camera transform is checked at each rendered frame.
 [Frame maps, source hashes and render settings](https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/manifest.json)
 accompany the [individual receipts and videos](https://github.com/huangkiki/Dexlab/tree/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio).
