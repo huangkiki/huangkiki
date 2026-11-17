@@ -50,7 +50,7 @@ I’m currently exploring **world models**, with a particular interest in how ag
 
 ### 2. Dexterous Manipulation Simulation & Physics Solvers
 
-<h3><a href="https://github.com/huangkiki/Dexlab">DexLab</a> <a href="https://github.com/huangkiki/Dexlab/stargazers"><img src="https://img.shields.io/github/stars/huangkiki/Dexlab?style=flat&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a></h3>
+<h3><a href="https://huangkiki.github.io/Dexlab/zh-cn/latest/index.html">DexLab</a> <a href="https://github.com/huangkiki/Dexlab/stargazers"><img src="https://img.shields.io/github/stars/huangkiki/Dexlab?style=flat&amp;logo=github&amp;label=Stars" alt="GitHub Stars"></a></h3>
 
 DexLab is my personal research project exploring how Agent Skills and simulation can improve each other.
 
@@ -60,12 +60,12 @@ DexLab starts with concrete problems like this. **Use tasks to expose problems, 
 
 The improved simulation helps the Agent learn new Skills. With those Skills, the Agent can take on harder tasks and probe the limits of the simulation.
 
-**[Explore DexLab on GitHub →](https://github.com/huangkiki/Dexlab)**
+**[Open the DexLab research overview →](https://huangkiki.github.io/Dexlab/zh-cn/latest/index.html)**
 
 [Research findings](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experience.md) · [Experiments](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experiments.md) · [Learn simulation](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/learning.md)
 
 <p align="center">
-  <a href="https://github.com/huangkiki/Dexlab"><img src="assets/projects/dexlab-architecture.jpg" width="100%" alt="DexLab architecture: tasks and protocols, systems under test, action execution, environment backends, and evidence and scoring"></a><br>
+  <a href="https://huangkiki.github.io/Dexlab/zh-cn/latest/index.html"><img src="assets/projects/dexlab-architecture.jpg" width="100%" alt="DexLab architecture: tasks and protocols, systems under test, action execution, environment backends, and evidence and scoring"></a><br>
   <sub>DexLab execution and evaluation architecture · task thumbnails indicate categories; recorded task evidence follows below.</sub>
 </p>
 
