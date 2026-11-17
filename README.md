@@ -60,9 +60,9 @@ DexLab starts with concrete problems like this. **Use tasks to expose problems, 
 
 The improved simulation helps the Agent learn new Skills. With those Skills, the Agent can take on harder tasks and probe the limits of the simulation.
 
-**[📖 Read the Blog →](https://huangkiki.github.io/Dexlab/en/latest/#blog)**
+**[Explore DexLab on GitHub →](https://github.com/huangkiki/Dexlab)**
 
-[Research findings](https://huangkiki.github.io/Dexlab/en/latest/experience.html) · [Experiments](https://huangkiki.github.io/Dexlab/en/latest/experiments.html) · [Learn simulation](https://huangkiki.github.io/Dexlab/en/latest/learning.html)
+[Research findings](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experience.md) · [Experiments](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experiments.md) · [Learn simulation](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/learning.md)
 
 <p align="center">
   <a href="https://github.com/huangkiki/Dexlab"><img src="assets/projects/dexlab-architecture.jpg" width="100%" alt="DexLab architecture: tasks and protocols, systems under test, action execution, environment backends, and evidence and scoring"></a><br>
@@ -72,39 +72,39 @@ The improved simulation helps the Agent learn new Skills. With those Skills, the
 <table width="100%">
   <tr>
     <td colspan="2" align="center">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/wuji-contact.html">Wuji grasp and contact switching</a></strong></p>
-      <a href="https://huangkiki.github.io/Dexlab/en/latest/wuji-contact.html"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/64d9051beb12bda0cc47b9fea3d2e7226315ae16/docs/evidence/wuji-contact/comparison.gif" width="100%" alt="Wuji point contact and synthetic torsional contact, synchronized replay" loading="lazy"></a>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/wuji-contact.md">Wuji grasp and contact switching</a></strong></p>
+      <a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/wuji-contact.md"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/64d9051beb12bda0cc47b9fea3d2e7226315ae16/docs/evidence/wuji-contact/comparison.gif" width="100%" alt="Wuji point contact and synthetic torsional contact, synchronized replay" loading="lazy"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/cut-push.html">Tofu cutting</a></strong></p>
-      <a href="https://huangkiki.github.io/Dexlab/en/latest/cut-push.html"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/tofu-cut-push/surface-rtx.gif" width="100%" alt="Tofu cutting and pushing in RTX" loading="lazy"></a>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/cut-push.md">Tofu cutting</a></strong></p>
+      <a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/cut-push.md"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/tofu-cut-push/surface-rtx.gif" width="100%" alt="Tofu cutting and pushing in RTX" loading="lazy"></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/cut-push.html">Banana cutting</a></strong></p>
-      <a href="https://huangkiki.github.io/Dexlab/en/latest/cut-push.html"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/banana-cut-push/surface-rtx.gif" width="100%" alt="Banana cutting and pushing in RTX" loading="lazy"></a>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/cut-push.md">Banana cutting</a></strong></p>
+      <a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/cut-push.md"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/14ba2f1e5b75abd61353117a51fd2e37f59880b5/docs/evidence/cutting/banana-cut-push/surface-rtx.gif" width="100%" alt="Banana cutting and pushing in RTX" loading="lazy"></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/rss-wiping.html">Stain wiping</a></strong></p>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/rss-wiping.md">Stain wiping</a></strong></p>
       <a href="https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/rss-wiping/rtx/rtx.mp4"><img src="assets/projects/stain-wiping.gif" width="100%" alt="Stain wiping: recorded trajectory in RTX, 10–19.9 s" loading="lazy"></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/libero-workflow.html">LIBERO replay</a></strong></p>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/libero-workflow.md">LIBERO replay</a></strong></p>
       <a href="https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/libero.mp4"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/libero.gif" width="100%" alt="LIBERO demo 0: native baseline state replay" loading="lazy"></a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <p><strong><a href="https://huangkiki.github.io/Dexlab/en/latest/experiments.html#apple-replays">Apple grasping</a></strong></p>
+      <p><strong><a href="https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experiments.md#apple-replays">Apple grasping</a></strong></p>
       <a href="https://github.com/huangkiki/Dexlab/blob/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/apple.mp4"><img src="https://raw.githubusercontent.com/huangkiki/Dexlab/fe658e2d863fb1c393835ee9e515c6451bdf1b26/docs/evidence/studio/apple.gif" width="100%" alt="Apple grasping: MuJoCo 3.16 / SuperDex 1.0 RTX replay" loading="lazy"></a>
     </td>
   </tr>
 </table>
 
-[More experiments](https://huangkiki.github.io/Dexlab/en/latest/experiments.html) · [Task and solver coverage](https://huangkiki.github.io/Dexlab/en/latest/coverage.html)
+[More experiments](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experiments.md) · [Task and solver coverage](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/coverage.md)
 
 <sub>Recorded simulation replays · <a href="assets/projects/README.md">Sources and rendering details</a>.</sub>
 
