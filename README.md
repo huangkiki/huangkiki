@@ -60,17 +60,9 @@ DexLab starts with concrete problems like this. **Use tasks to expose problems, 
 
 The improved simulation helps the Agent learn new Skills. With those Skills, the Agent can take on harder tasks and probe the limits of the simulation.
 
-**My claim: a successful simulation is not proof of physical correctness. Without a physical-robot experiment, physical validity can still be made auditable and falsifiable:** configured values must reach the engine; mass, inertia, and joint limits must be plausible; conservation and time-step perturbation tests must not produce contradictory behavior; contact responses must satisfy physical bounds; and task scoring must reject idle, near-miss, and hidden-support shortcuts. This establishes internally evidenced, testable physics behavior, not sim-to-real fidelity. A real-robot experiment remains the external check.
-
-[Read the evidence chain and its limits → DexLab Discussion #388](https://github.com/huangkiki/Dexlab/discussions/388)
-
 **[Open the DexLab research overview →](https://huangkiki.github.io/Dexlab/zh-cn/latest/index.html)**
 
 [Research findings](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experience.md) · [Experiments](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/experiments.md) · [Learn simulation](https://github.com/huangkiki/Dexlab/blob/main/docs/site/en/learning.md)
-
-<p align="center">
-  <a href="https://github.com/huangkiki/Dexlab/discussions"><img src="https://img.shields.io/badge/Explore-DexLab_Discussions-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore DexLab Discussions"></a>
-</p>
 
 <p align="center">
   <a href="https://huangkiki.github.io/Dexlab/zh-cn/latest/index.html"><img src="assets/projects/dexlab-architecture.jpg" width="100%" alt="DexLab architecture: tasks and protocols, systems under test, action execution, environment backends, and evidence and scoring"></a><br>
